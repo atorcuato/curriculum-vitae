@@ -196,7 +196,7 @@ h5 {
 }
 
 p {
-  padding: 0.3rem 0;
+  padding: 0.2rem 0;
   text-align: justify;
   font-size: 12pt;
   line-height: normal;
@@ -245,4 +245,14 @@ meter::-webkit-meter-bar{
 
 meter{
     width: 20%;
+}
+
+#skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#skills-container > p{
+  flex-basis: 25%;
 }

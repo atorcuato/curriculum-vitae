@@ -215,7 +215,7 @@ code {
   font-size: 0.9rem;
 }
 
-#sidebar > div>p:nth-child(1) {
+#sidebar > div > p:nth-child(1) {
   padding: 0;
   margin: 0;
 }
@@ -236,12 +236,24 @@ ul > li {
 }
 
 meter::-webkit-meter-optimum-value {
-    background: #ffcc00; /* Green */
+  background: #ffcc00; /* Green */
 }
-meter::-webkit-meter-bar{
-    border: 1px solid #ffcc00;
+meter::-webkit-meter-bar {
+  border: 1px solid #ffcc00;
 }
 
-meter{
-    width: 20%;
+meter {
+  width: 20%;
 }
+
+#skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#skills-container > p{
+  flex-basis: 25%;
+}
+
+

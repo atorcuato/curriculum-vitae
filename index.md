@@ -32,25 +32,38 @@ Soy una persona joven, dispuesto siempre a aprender y mejorar. Mis intereses son
 
 `03/2021 - 06/2021`
 
-Soporte Técnico
+**Soporte Técnico**
 
 _Neofranquicias, Elda_
 
 Trabajé en esta empresa como técnico de soporte en prácticas, ayudando con la gestión de una base de datos, modificación y maquetación de páginas web, uso de Wordpress y Prestashop, edición de imagen, uso de software de acceso remoto...
 
 ### Skills
+<div id="skills-container">
+  <p>HTML</p>
+  <p>CSS</p>
+  <p>Bootstrap</p>
+  <p>JavaScript</p>
+  <p>React</p>
+  <p>PHP</p>
+  <p>Laravel</p>
+  <p>Java</p>
+  <p>MySQL</p>
+  <p>PLSQL</p>
+  <p>MongoDB</p>
+  <p>Git</p>
+  <p>Jekyll</p>
+  <p>Node.js</p>
+  <p>Firebase</p>
+  <p>Docker</p>
+  <p>AWS</p>
+  <p>Agile/Scrum</p>
+  <p>Wordpress</p>
+  <p>Prestashop</p>
+</div>
 
-Java
-  <meter min="0" max="100" value="95">95%</meter>
-PLSQL
-  <meter min="0" max="100" value="60">60%</meter>
-MySQL
-  <meter min="0" max="100" value="85">85%</meter>
-HTML y CSS
-  <meter min="0" max="100" value="99">99%</meter>
-Javascript
-  <meter min="0" max="100" value="99">99%</meter>
-
+### Extra
+<p>Puedes encontrar este currículum en su versión web <a href="https://atorcuato.github.io/cv">aquí</a></p>
 </div>
 
 <div id="sidebar">
