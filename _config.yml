@@ -2,3 +2,5 @@
 kramdown:
   # parse markdown inside block-level HTML tag
   parse_block_html: true
+
+baseurl: /cv

@@ -6,6 +6,7 @@ css: default
 
 [Comentario]: <> (Variables para el uso de JetKyll)
 
+
 [Comment]: <> (Gracias a la regla de parse_block_html me permite introducir lenguaje md dentro de etiquetas HTML, sino no sería posible. Esto lo hago para hacer dos columnas con más facilidad.)
 
 <div id="cv">
@@ -13,20 +14,53 @@ css: default
 [Comment]: <> (Md es tan básico que no se pueden introducir código dentro de divs para separarlo, así que voy a hacer dos includes para dividirlo entre dos divs y poder aplicar el estilo de dos columnas)
 
 [Comment]: <> (Nombre y apellidos del autor)
+<div>
 
 # Alejandro Torcuato Morgado
+
 
 [Comment]: <> (A qué te dedicas)
 
 ## Desarrollador Full Stack
 
+</div>
+
 [Comment]: <> (Breve descripción sobre ti)
+
+<div>
 
 ### Perfil
 
 Soy una persona joven, dispuesto siempre a aprender y mejorar. Mis intereses son la informática, más especializada en el ámbito web. Mi actitud es persistente ante cualquier problema que se presente, además de comprometerme por completo en el trabajo. Estoy dispuesto a cooperar en grupo y aportar en la creación de un buen ambiente de trabajo.
 
+</div>
+
 [Comment]: <> (Experiencia laboral)
+
+### Skills
+
+<div id="skills-container">
+  <p>HTML</p>
+  <p>CSS</p>
+  <p>Bootstrap</p>
+  <p>JavaScript</p>
+  <p>React</p>
+  <p>PHP</p>
+  <p>Java</p>
+  <p>MySQL</p>
+  <p>PLSQL</p>
+  <p>MongoDB</p>
+  <p>Git</p>
+  <p>Jekyll</p>
+  <p>Firebase</p>
+  <p>Docker</p>
+  <p>AWS</p>
+  <p>Agile/Scrum</p>
+  <p>Wordpress</p>
+  <p>Prestashop</p>
+</div>
+
+<div>
 
 ### Experiencia
 
@@ -38,32 +72,7 @@ _Neofranquicias, Elda_
 
 Trabajé en esta empresa como técnico de soporte en prácticas, ayudando con la gestión de una base de datos, modificación y maquetación de páginas web, uso de Wordpress y Prestashop, edición de imagen, uso de software de acceso remoto...
 
-### Skills
-<div id="skills-container">
-  <p>HTML</p>
-  <p>CSS</p>
-  <p>Bootstrap</p>
-  <p>JavaScript</p>
-  <p>React</p>
-  <p>PHP</p>
-  <p>Laravel</p>
-  <p>Java</p>
-  <p>MySQL</p>
-  <p>PLSQL</p>
-  <p>MongoDB</p>
-  <p>Git</p>
-  <p>Jekyll</p>
-  <p>Node.js</p>
-  <p>Firebase</p>
-  <p>Docker</p>
-  <p>AWS</p>
-  <p>Agile/Scrum</p>
-  <p>Wordpress</p>
-  <p>Prestashop</p>
 </div>
-
-### Extra
-<p>Puedes encontrar este currículum en su versión web <a href="https://atorcuato.github.io/cv">aquí</a></p>
 </div>
 
 <div id="sidebar">
@@ -71,7 +80,7 @@ Trabajé en esta empresa como técnico de soporte en prácticas, ayudando con la
 [Comment]: <> (Foto de perfil)
 
 <div>
-<img src="https://i1.sndcdn.com/artworks-DfDLRYUqkm9IDWcy-AYXT0w-t500x500.jpg" alt="Foto de perfil">
+<img src="{{ site.baseurl }}/assets/foto.jpg" alt="Foto del CV">
 </div>
 
 <div>
@@ -108,11 +117,11 @@ _IES Poeta Paco Mollá_
 
 ##### Teléfono
 
-674067943
+<a>674067943</a>
 
 ##### Email
 
-alejandrotorcuatomorgado@gmail.com
+<a>alejandrotorcuato<wbr>morgado@gmail.com</a>
 
 ##### Dirección
 

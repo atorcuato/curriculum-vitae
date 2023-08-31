@@ -128,6 +128,10 @@ table {
   border-spacing: 0;
 }
 
+a.link, a.link:link, a.link:visited, a.link:hover,a.link:active{
+  color: white;
+  text-decoration: none;
+}
 /* Aquí empieza el código  */
 
 html {
@@ -144,6 +148,10 @@ main {
 #cv {
   width: 70%;
   padding: 3rem;
+}
+
+#cv>div{
+  margin-bottom: 1.5rem;
 }
 
 /*Barra lateral con datos personales.*/
@@ -176,7 +184,7 @@ h3 {
   display: inline-block;
   font-size: 1.5rem;
   border-bottom: 2px solid black;
-  margin: 1rem 0;
+  margin: 0.7rem 0;
   font-variant: small-caps;
   text-align: justify;
 }
@@ -249,11 +257,10 @@ meter {
 #skills-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-}
+ }
 
 #skills-container > p{
-  flex-basis: 25%;
+  flex-basis: 33%;
 }
 
 

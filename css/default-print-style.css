@@ -128,6 +128,11 @@ table {
   border-spacing: 0;
 }
 
+a:link, a:visited, a:hover,a:active{
+  color: inherit;
+  text-decoration: none;
+}
+
 /* Aquí empieza el código  */
 
 html {
@@ -145,6 +150,10 @@ main {
 #cv {
   width: 70%;
   padding: 3rem;
+}
+
+#cv>div{
+  margin-bottom: 1.5rem;
 }
 
 /*Barra lateral con datos personales.*/
@@ -177,7 +186,7 @@ h3 {
   display: inline-block;
   font-size: 14pt;
   border-bottom: 2px solid black;
-  margin: 1rem 0;
+  margin: 0.6rem 0;
   font-variant: small-caps;
   text-align: justify;
 }
@@ -196,7 +205,7 @@ h5 {
 }
 
 p {
-  padding: 0.2rem 0;
+  padding: 0.3rem 0;
   text-align: justify;
   font-size: 12pt;
   line-height: normal;
@@ -250,9 +259,8 @@ meter{
 #skills-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 #skills-container > p{
-  flex-basis: 25%;
+  flex-basis: 33%;
 }
