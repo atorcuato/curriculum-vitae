@@ -39,6 +39,30 @@ Soy una persona joven, dispuesto siempre a aprender y mejorar. Mis intereses son
 
 ### Skills
 
+<div>
+
+### Experiencia
+
+`03/2021 - 06/2021`
+
+**Soporte Técnico**
+
+_Neofranquicias, Elda_
+
+Trabajé en esta empresa como técnico de soporte en prácticas, ayudando con la gestión de una base de datos, modificación y maquetación de páginas web, uso de Wordpress y Prestashop, edición de imagen, uso de software de acceso remoto...
+
+`03/2023 - actual`
+
+**Programador informático**
+
+_Tecnotac S.L., Elda_
+
+- Migracion base de datos
+- Gestión ERP de la empresa
+
+
+</div>
+
 <div id="skills-container">
   <p>HTML</p>
   <p>CSS</p>
@@ -60,19 +84,7 @@ Soy una persona joven, dispuesto siempre a aprender y mejorar. Mis intereses son
   <p>Prestashop</p>
 </div>
 
-<div>
 
-### Experiencia
-
-`03/2021 - 06/2021`
-
-**Soporte Técnico**
-
-_Neofranquicias, Elda_
-
-Trabajé en esta empresa como técnico de soporte en prácticas, ayudando con la gestión de una base de datos, modificación y maquetación de páginas web, uso de Wordpress y Prestashop, edición de imagen, uso de software de acceso remoto...
-
-</div>
 </div>
 
 <div id="sidebar">
