@@ -264,3 +264,7 @@ meter{
 #skills-container > p{
   flex-basis: 33%;
 }
+
+.experience-card {
+  margin: 1rem 0;
+}

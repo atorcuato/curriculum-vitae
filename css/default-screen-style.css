@@ -263,4 +263,6 @@ meter {
   flex-basis: 33%;
 }
 
-
+.experience-card {
+  margin: 1rem 0;
+}

@@ -4,20 +4,13 @@ layout: template
 css: default
 ---
 
-[Comentario]: <> (Variables para el uso de JetKyll)
-
-
-[Comment]: <> (Gracias a la regla de parse_block_html me permite introducir lenguaje md dentro de etiquetas HTML, sino no sería posible. Esto lo hago para hacer dos columnas con más facilidad.)
-
 <div id="cv">
 
-[Comment]: <> (Md es tan básico que no se pueden introducir código dentro de divs para separarlo, así que voy a hacer dos includes para dividirlo entre dos divs y poder aplicar el estilo de dos columnas)
-
-[Comment]: <> (Nombre y apellidos del autor)
 <div>
 
-# Alejandro Torcuato Morgado
+[Comment]: <> (Nombre y apellidos del autor)
 
+# Alejandro Torcuato Morgado
 
 [Comment]: <> (A qué te dedicas)
 
@@ -25,9 +18,9 @@ css: default
 
 </div>
 
-[Comment]: <> (Breve descripción sobre ti)
-
 <div>
+
+[Comment]: <> (Breve descripción sobre ti)
 
 ### Perfil
 
@@ -35,11 +28,13 @@ Soy una persona joven, dispuesto siempre a aprender y mejorar. Mis intereses son
 
 </div>
 
-[Comment]: <> (Experiencia laboral)
-
 <div>
 
+[Comment]: <> (Experiencia laboral)
+
 ### Experiencia
+
+<div class="experience-card">
 
 `03/2021 - 06/2021`
 
@@ -48,6 +43,9 @@ Soy una persona joven, dispuesto siempre a aprender y mejorar. Mis intereses son
 _Neofranquicias, Elda_
 
 Trabajé en esta empresa como técnico de soporte en prácticas, ayudando con la gestión de una base de datos, modificación y maquetación de páginas web, uso de Wordpress y Prestashop, edición de imagen, uso de software de acceso remoto...
+
+</div>
+<div class="experience-card">
 
 `03/2023 - actual`
 
@@ -59,7 +57,10 @@ _Tecnotac S.L., Elda_
 - Gestión ERP de la empresa
 
 </div>
+</div>
+
 ### Skills
+
 <div id="skills-container">
   <p>HTML</p>
   <p>CSS</p>
@@ -81,7 +82,6 @@ _Tecnotac S.L., Elda_
   <p>Prestashop</p>
 </div>
 
-
 </div>
 
 <div id="sidebar">
@@ -93,6 +93,26 @@ _Tecnotac S.L., Elda_
 </div>
 
 <div>
+
+[Comment]: <> (Datos de contacto)
+
+### Contacto
+
+##### Teléfono
+
+<a>674067943</a>
+
+##### Email
+
+<a>alejandrotorcuato<wbr>morgado@gmail.com</a>
+
+##### Dirección
+
+Petrer, Alicante
+
+##### Fecha de nacimiento
+
+16/01/2001
 
 [Comment]: <> (Información sobre tu educación)
 
@@ -120,25 +140,10 @@ _IES Poeta Paco Mollá_
 
 - _Nivel alto (B1 Cambridge)_
 
-[Comment]: <> (Datos de contacto)
+### Extras
 
-### Contacto
-
-##### Teléfono
-
-<a>674067943</a>
-
-##### Email
-
-<a>alejandrotorcuato<wbr>morgado@gmail.com</a>
-
-##### Dirección
-
-Petrer, Alicante
-
-##### Fecha de nacimiento
-
-16/01/2001
+-_Carnet de coche_
+-_Coche propio_
 
 </div>
 </div>
