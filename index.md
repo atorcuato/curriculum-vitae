@@ -37,8 +37,6 @@ Soy una persona joven, dispuesto siempre a aprender y mejorar. Mis intereses son
 
 [Comment]: <> (Experiencia laboral)
 
-### Skills
-
 <div>
 
 ### Experiencia
@@ -60,9 +58,8 @@ _Tecnotac S.L., Elda_
 - Migracion base de datos
 - Gestión ERP de la empresa
 
-
 </div>
-
+### Skills
 <div id="skills-container">
   <p>HTML</p>
   <p>CSS</p>
