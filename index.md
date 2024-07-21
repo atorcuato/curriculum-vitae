@@ -24,10 +24,27 @@ css: default
 
 ### Perfil
 
-Soy una persona joven, dispuesto siempre a aprender y mejorar. Mis intereses son la informática, más especializada en el ámbito web. Mi actitud es persistente ante cualquier problema que se presente, además de comprometerme por completo en el trabajo. Estoy dispuesto a cooperar en grupo y aportar en la creación de un buen ambiente de trabajo.
+Dedicado al trabajo con una actitud receptiva y una firme disposición para mejorar. Destaco por mi habilidad para colaborar y comunicarme de manera clara en equipo, fomentando un ambiente de trabajo productivo. Comprometido y determinado, abordo cada proyecto con pasión y entrega.
 
 </div>
 
+<div id="formation">
+
+[Comment]: <> (Información sobre tu educación)
+
+### Educación
+
+#### Grado Superior en Desarrollo de Aplicaciones Web
+
+_IES Poeta Paco Mollá_
+`2021-2023`
+
+#### Grado Medio en Sistemas Microinformáticos y Redes
+
+_IES Poeta Paco Mollá_
+`2019-2021`
+
+</div>
 <div>
 
 [Comment]: <> (Experiencia laboral)
@@ -36,25 +53,29 @@ Soy una persona joven, dispuesto siempre a aprender y mejorar. Mis intereses son
 
 <div class="experience-card">
 
-`03/2021 - 06/2021`
-
-**Soporte Técnico**
-
-_Neofranquicias, Elda_
-
-Trabajé en esta empresa como técnico de soporte en prácticas, ayudando con la gestión de una base de datos, modificación y maquetación de páginas web, uso de Wordpress y Prestashop, edición de imagen, uso de software de acceso remoto...
-
-</div>
-<div class="experience-card">
-
 `03/2023 - actual`
 
 **Programador informático**
 
 _Tecnotac S.L., Elda_
 
-- Migracion base de datos
-- Gestión ERP de la empresa
+- Migracion de base de datos de VFox Pro a Firebird.
+- Análisis, gestión y desarrollo del ERP de la empresa.
+- Mantenimiento de sistemas e instalación de Sistemas Operativos.
+
+</div>
+<div class="experience-card">
+
+`03/2021 - 06/2021`
+
+**Soporte Técnico**
+
+_Neofranquicias, Elda_
+
+Trabajé en esta empresa como técnico de soporte en prácticas.
+- Modificación y maquetación de páginas web.
+- Gestión de una base de datos.
+- Uso de Wordpress y Prestashop.
 
 </div>
 </div>
@@ -62,24 +83,18 @@ _Tecnotac S.L., Elda_
 ### Skills
 
 <div id="skills-container">
-  <p>HTML</p>
-  <p>CSS</p>
-  <p>Bootstrap</p>
-  <p>JavaScript</p>
-  <p>React</p>
+  <p>HTML / CSS</p>
+  <p>Bootstrap / Tailwind</p>
+  <p>JavaScript / React</p>
   <p>PHP</p>
   <p>Java</p>
   <p>MySQL</p>
-  <p>PLSQL</p>
   <p>MongoDB</p>
   <p>Git</p>
-  <p>Jekyll</p>
   <p>Firebase</p>
   <p>Docker</p>
   <p>AWS</p>
   <p>Agile/Scrum</p>
-  <p>Wordpress</p>
-  <p>Prestashop</p>
 </div>
 
 </div>
@@ -89,10 +104,10 @@ _Tecnotac S.L., Elda_
 [Comment]: <> (Foto de perfil)
 
 <div>
-<img src="{{ site.baseurl }}/assets/foto.jpg" alt="Foto del CV">
+<img src="{{ site.baseurl }}/assets/foto.jpg" alt="Foto del CV" id="foto">
 </div>
 
-<div>
+<div id="sidebar-info">
 
 [Comment]: <> (Datos de contacto)
 
@@ -104,29 +119,11 @@ _Tecnotac S.L., Elda_
 
 ##### Email
 
-<a>alejandrotorcuato<wbr>morgado@gmail.com</a>
+<a>alejandrotorcuato<wbr>morgado<wbr>@gmail.com</a>
 
 ##### Dirección
 
 Petrer, Alicante
-
-##### Fecha de nacimiento
-
-16/01/2001
-
-[Comment]: <> (Información sobre tu educación)
-
-### Educación
-
-#### Grado Medio en Sistemas Microinformáticos y Redes
-
-_IES Poeta Paco Mollá_
-`2019-2021`
-
-#### Grado Superior en Desarrollo de Aplicaciones Web
-
-_IES Poeta Paco Mollá_
-`2021-2023`
 
 [Comment]: <> (Idiomas)
 
@@ -142,8 +139,7 @@ _IES Poeta Paco Mollá_
 
 ### Extras
 
--_Carnet de coche_
--_Coche propio_
+- _Carnet de coche / Coche propio_
 
 </div>
 </div>

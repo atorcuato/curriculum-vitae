@@ -147,11 +147,11 @@ main {
 /*Parte principal del cv.*/
 #cv {
   width: 70%;
-  padding: 3rem;
+  padding: 2rem;
 }
 
 #cv>div{
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 /*Barra lateral con datos personales.*/
@@ -193,6 +193,11 @@ h3 {
   border-bottom: 2px solid #ffcc00;
   color: #ffcc00;
 }
+
+#sidebar h5 {
+  font-size: 14pt;
+}
+
 
 h4 {
   font-size: 1.4rem;
@@ -264,5 +269,19 @@ meter {
 }
 
 .experience-card {
-  margin: 1rem 0;
+  margin-bottom: 1rem;
+}
+
+.experience-card li {
+  list-style-type: square;
+  padding: 0.1rem;
+  margin-left: 1.2rem;
+}
+
+#sidebar a, #sidebar em {
+  font-size: 1rem;
+}
+
+#formation {
+  line-height: 1.5;
 }
