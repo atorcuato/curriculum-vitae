@@ -137,9 +137,15 @@ Petrer, Alicante
 
 - _Nivel alto (B1 Cambridge)_
 
+### Social
+
+<a href='https://github.com/TorKhua'>Github</a>
+
 ### Extras
 
 - _Carnet de coche / Coche propio_
+- Puedes ver este CV en versión web <a href='https://torkhua.github.io/cv/'>aquí</a>
+
 
 </div>
 </div>
